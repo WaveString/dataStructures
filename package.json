@@ -1,0 +1,21 @@
+{
+  "name": "Data Structures",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.js",
+  "engines": {
+    "node": "6.2.0",
+    "npm": "3.8.9"
+  },
+  "scripts": {
+    "server": "node server.js",
+    "start": "webpack && npm run server",
+    "lint": "./node_modules/eslint/bin/eslint.js src/"
+  },
+  "author": "Evgeny Khmelev",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
